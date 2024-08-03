@@ -1,0 +1,8 @@
+.graph {
+  aspect-ratio: 2/1;
+  height: 29vh;
+  width: 94%;
+  background-color: #1f1f2e; /* Example background color */
+  border-radius: 10px;
+  padding: 20px;
+}

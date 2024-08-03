@@ -1,0 +1,44 @@
+.customer-feedback {
+  background-color: #1f1f2e;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  max-height: 72vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.customer-feedback h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.feedback-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.feedback-item .name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.feedback-item .stars {
+  color: #ffd700;
+  margin-bottom: 5px;
+}
+
+.feedback-item .comment {
+  font-size: 14px;
+  line-height: 1.4;
+}
