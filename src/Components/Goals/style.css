@@ -65,3 +65,143 @@
   height: 30px;
   font-size: 30px;
 }
+@media (max-width:950px){
+  .goalBox {
+    width: 310px;
+    background-color: #1f1f2e;
+    padding: 23px;
+    border-radius: 10px;
+    /* color: rgb(169, 52, 52); */
+  }
+  .goal {
+    display: flex;
+    justify-content: space-between;
+  }
+  .dishes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .roundLogoForGoals {
+    width: 35px;
+    background-color: rgb(224, 133, 90);
+    opacity: 0.6;
+    height: 36px;
+    margin: 10px;
+    color: rgb(194, 67, 4);
+    /* color: rgb(169, 52, 52); */
+    border-radius: 20px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .roundLogoForDishes {
+    width: 35px;
+    background-color: rgb(93, 91, 207);
+    height: 35px;
+    margin: 10px;
+    opacity: 0.6;
+    color: rgb(2, 6, 224);
+    border-radius: 20px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .roundLogoForMenus {
+    width: 35px;
+    background-color: rgb(121, 195, 195);
+    height: 35px;
+    margin: 10px;
+    opacity: 0.6;
+    color: rgb(8, 131, 155);
+    border-radius: 20px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrow {
+    background-color: rgba(91, 89, 85, 0.486);
+    margin: 10px;
+    color: rgb(238, 228, 228);
+    border-radius: 50px;
+    display: "flex";
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 30px;
+  }
+  
+}
+@media  (max-width:870px) {
+  .goalBox {
+    width: 265px;
+    background-color: #1f1f2e;
+    padding: 23px;
+    border-radius: 10px;
+    /* color: rgb(169, 52, 52); */
+  }
+  .goal {
+    display: flex;
+    justify-content: space-between;
+  }
+  .dishes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .roundLogoForGoals {
+    width: 35px;
+    background-color: rgb(224, 133, 90);
+    opacity: 0.6;
+    height: 36px;
+    margin: 10px;
+    color: rgb(194, 67, 4);
+    /* color: rgb(169, 52, 52); */
+    border-radius: 20px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .roundLogoForDishes {
+    width: 35px;
+    background-color: rgb(93, 91, 207);
+    height: 35px;
+    margin: 10px;
+    opacity: 0.6;
+    color: rgb(2, 6, 224);
+    border-radius: 20px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .roundLogoForMenus {
+    width: 35px;
+    background-color: rgb(121, 195, 195);
+    height: 35px;
+    margin: 10px;
+    opacity: 0.6;
+    color: rgb(8, 131, 155);
+    border-radius: 20px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrow {
+    background-color: rgba(91, 89, 85, 0.486);
+    margin: 10px;
+    color: rgb(238, 228, 228);
+    border-radius: 50px;
+    display: "flex";
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 30px;
+  }
+
+}

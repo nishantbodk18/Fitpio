@@ -75,7 +75,7 @@ function Layout() {
                 <CustomerFeedback />
               </div>
             </div>
-            <div></div>
+           
           </div>
         </div>
       </div>

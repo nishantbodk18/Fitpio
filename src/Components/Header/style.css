@@ -42,15 +42,50 @@
 }
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .header {
-        width: calc(100% - 60px);
-        left: 60px;
+        background-color: #1f1f2e;
+        height: 60px;
+        width: calc(100% - 80px);
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 50px;
+        transition: left 0.3s ease, width 0.3s ease;
+        z-index: 1000;
     }
-
+    
     .search-bar input {
+        background-color: #333333;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 12px;
+        color: #FFFFFF;
         width: 200px;
     }
+    
+    .header-icons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .header-icons i {
+        font-size: 17px;
+        
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    .profile-pic img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    
 }
 
 @media screen and (max-width: 480px) {

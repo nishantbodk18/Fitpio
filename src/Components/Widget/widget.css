@@ -31,6 +31,84 @@
   display: flex;
   justify-content: space-between;
 }
-.countNumber {
+#countNumber {
   font-size: large;
+}
+
+@media (max-width: 950px) {
+  .widget {
+    background-color: #1f1f2e;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    flex: 1;
+  }
+
+  .widget h4 {
+    font-size: 0.7rem;
+    margin: 7px 0px;
+  }
+
+  .widget p {
+    font-size: 0.8em;
+    margin: 5px 0;
+  }
+  .icon {
+    margin: 5px;
+    font-size: 17px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  .count {
+    display: flex;
+    justify-content: space-between;
+  }
+  #countNumber {
+    font-size: 17px;
+  }
+}
+@media  (max-width:870px) {
+  .widget {
+    background-color: #1f1f2e;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 5px;
+    flex: 1;
+  }
+
+  .widget h4 {
+    font-size: 0.6rem;
+    margin: 7px 0px;
+  }
+
+  .widget p {
+    font-size: 0.6em;
+    margin: 5px 0;
+  }
+  .icon {
+    margin: 5px;
+    font-size: 17px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  .count {
+    display: flex;
+    justify-content: space-between;
+  }
+  #countNumber {
+    font-size: 13px;
+  }
+
 }

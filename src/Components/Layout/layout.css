@@ -41,3 +41,46 @@
   width: 390px;
 
 }
+
+@media (max-width:950px){
+  .main-content {
+    margin: 60px 0px -10px 40px;
+    width: 91vw;
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+    background-color: #1c1c1e;
+    color: white;
+  }
+  
+  .widgets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .middleSection {
+    width: 80%;
+    height: 100%;
+  }
+  .middleSection p {
+    margin: 14px 10px;
+    font-size: 20px;
+  }
+  .recentOrder {
+    margin-top: 30px;
+  }
+  
+  .rightSection {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+  }
+  .netProfit {
+    margin-bottom: -30px;
+  }
+  .customerFeedback {
+    margin-top: 13px;
+    width: 360px;
+  
+  }
+}

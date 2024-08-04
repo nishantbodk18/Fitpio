@@ -21,7 +21,7 @@ function Widget({
       </div>
       <h4>{title}</h4>
       <div className="count">
-        <p className="countNumber" style={{fontSize:"25px"}}>{count ? count : amount}</p>
+        <p id="countNumber" >{count ? count : amount}</p>
         {positive && (
           <p style={{ color: "#88D66C" }}>
             <spa>

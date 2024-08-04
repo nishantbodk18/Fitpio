@@ -80,4 +80,178 @@
     background-color: #dc3545;
     color: #fff;
   }
+
+
+  @media (max-width:950px){
+
+    .recent-orders {
+      background-color: #1f1f2e;
+      border-radius: 10px;
+      width: 45vw;
+      padding: 15px;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+    }
+    
+    .recent-orders__title {
+      margin-bottom: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+    }
+    
+    .recent-orders__list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .recent-orders__item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #3b3b4f;
+    }
+    
+    .recent-orders__item:last-child {
+      border-bottom: none;
+    }
+    
+    .recent-orders__customer {
+      display: flex;
+      align-items: center;
+    }
+    
+    .recent-orders__avatar {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+    
+    .recent-orders__name {
+      font-weight: 300;
+      color: #fff;
+    }
+    
+    .recent-orders__order-no {
+      color: #8c8c8e;
+      font-size: 12px;
+    }
+    
+    .recent-orders__amount {
+      font-weight: 400;
+      color: #fff;
+    }
+    
+    .recent-orders__status {
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 10px;
+      text-transform: capitalize;
+    }
+    
+    .recent-orders__status.delivered {
+      background-color: #28a745;
+      color: #fff;
+    }
+    
+    .recent-orders__status.pending {
+      background-color: #ffc107;
+      color: #000;
+    }
+    
+    .recent-orders__status.cancelled {
+      background-color: #dc3545;
+      color: #fff;
+    }
   
+  }
+  @media  (max-width:870px) {
+
+    .recent-orders {
+      background-color: #1f1f2e;
+      border-radius: 10px;
+      width: 40vw;
+      padding: 15px;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+    }
+    
+    .recent-orders__title {
+      margin-bottom: 20px;
+      font-size: 15px;
+      font-weight: 400;
+      color: #fff;
+    }
+    
+    .recent-orders__list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .recent-orders__item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 7px 0;
+      border-bottom: 1px solid #3b3b4f;
+    }
+    
+    .recent-orders__item:last-child {
+      border-bottom: none;
+    }
+    
+    .recent-orders__customer {
+      display: flex;
+      align-items: center;
+    }
+    
+    .recent-orders__avatar {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+    
+    .recent-orders__name {
+      font-weight: 200;
+      color: #fff;
+    }
+    
+    .recent-orders__order-no {
+      color: #8c8c8e;
+      font-size: 11px;
+    }
+    
+    .recent-orders__amount {
+      font-weight: 300;
+      color: #fff;
+    }
+    
+    .recent-orders__status {
+      padding: 5px 5px;
+      border-radius: 20px;
+      font-size: 12px;
+      text-transform: capitalize;
+    }
+    
+    .recent-orders__status.delivered {
+      background-color: #28a745;
+      color: #fff;
+    }
+    
+    .recent-orders__status.pending {
+      background-color: #ffc107;
+      color: #000;
+    }
+    
+    .recent-orders__status.cancelled {
+      background-color: #dc3545;
+      color: #fff;
+    }
+  }
