@@ -19,9 +19,7 @@ function Layout() {
   return (
     <>
       <div className="dashboard">
-      
         <div>
-        
           <div className="main-content">
             <div className="middleSection">
               <p>Dashboard</p>
@@ -60,8 +58,16 @@ function Layout() {
                 />
               </div>
               <ActivityChart />
+              <div className="netProfitMobile">
+                <NetProfit />
+              </div>
               <div className="recentOrder">
                 <RecentOrders />
+              </div>
+              <div className="goalsMobile">
+                <Goals />
+              </div><div className="customerFeedbackMobile">
+                <CustomerFeedback />
               </div>
             </div>
             <div className="rightSection">

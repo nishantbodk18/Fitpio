@@ -1,7 +1,7 @@
 .graph {
   aspect-ratio: 2/1;
-  height: 29vh;
-  width: 94%;
+  height: 26vh;
+  width: 95%;
   background-color: #1f1f2e; /* Example background color */
   border-radius: 10px;
   padding: 20px;
@@ -21,6 +21,17 @@
     aspect-ratio: 2/1;
     height: 29vh;
     width: 87%;
+    background-color: #1f1f2e; /* Example background color */
+    border-radius: 10px;
+    padding: 20px;
+  }
+}
+
+@media (max-width:420px){
+  .graph {
+    aspect-ratio: 2/1;
+    height: 29vh;
+    width: 90%;
     background-color: #1f1f2e; /* Example background color */
     border-radius: 10px;
     padding: 20px;

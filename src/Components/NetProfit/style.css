@@ -70,7 +70,7 @@
     margin: 55px 0px;
     padding: 5px;
     width: 350px;
-    height: 95px;
+    height: 80px;
     background-color: hsl(240, 19%, 15%);
     /* border: 1px solid #ddd; */
     border-radius: 8px;
@@ -80,7 +80,7 @@
   
   .net-profit h3 {
     margin-bottom: -15px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: white;
   }
   
@@ -93,14 +93,14 @@
   }
   
   .amount {
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin: 21px 10px;
     font-weight: bold;
     color: white;
   }
   
   .percentage {
-    margin: -3px 10px;
+    margin: -5px 10px;
     font-size: 1rem;
     color: #4caf50;
   }
@@ -160,6 +160,73 @@
   
   .amount {
     font-size: 1.1rem;
+    margin: 21px 10px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .percentage {
+    margin: -10px 10px;
+    font-size: 1rem;
+    color: #4caf50;
+  }
+  .net-profit-chart {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    margin: 4px 40px;
+  }
+  
+  .chart-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .chart-center h2 {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .chart-center p {
+    font-size: 10px;
+    margin: 0;
+  }
+  
+}
+
+@media  (max-width:420px) {
+  .net-profit {
+    margin: 20px 0px;
+    padding: 10px;
+    width: 94%;
+    height: 85px;
+    background-color: hsl(240, 19%, 15%);
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .net-profit h3 {
+    margin-bottom: -10px;
+    font-size: 1.1rem;
+    color: white;
+  }
+  
+  .profit-info {
+    margin: -5 px 20px;
+  
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+  }
+  
+  .amount {
+    font-size: 1.7rem;
     margin: 21px 10px;
     font-weight: bold;
     color: white;

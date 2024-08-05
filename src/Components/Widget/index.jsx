@@ -1,19 +1,8 @@
 import React from "react";
 import "./widget.css";
-import { BsCartCheckFill } from "react-icons/bs";
-import { AiOutlineCaretUp } from "react-icons/ai";
-import { AiOutlineCaretDown } from "react-icons/ai";
+import { AiOutlineCaretUp, AiOutlineCaretDown } from "react-icons/ai";
 
-function Widget({
-  icon,
-  title,
-  count,
-  positive,
-  amount,
-  negative,
-  color,
-  bgColor,
-}) {
+function Widget({ icon, title, count, positive, amount, negative, color, bgColor }) {
   return (
     <div className="widget">
       <div className="icon" style={{ color: color, backgroundColor: bgColor }}>
@@ -21,12 +10,12 @@ function Widget({
       </div>
       <h4>{title}</h4>
       <div className="count">
-        <p id="countNumber" >{count ? count : amount}</p>
+        <p id="countNumber">{count ? count : amount}</p>
         {positive && (
           <p style={{ color: "#88D66C" }}>
-            <spa>
+            <span>
               <AiOutlineCaretUp />
-            </spa>
+            </span>
             {positive}%
           </p>
         )}
