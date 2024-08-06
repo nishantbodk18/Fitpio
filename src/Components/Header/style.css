@@ -40,6 +40,9 @@
     height: 40px;
     border-radius: 50%;
 }
+.menuIcon {
+  display: none;
+}
 
 /* Responsive Design */
 @media screen and (max-width: 950px) {
@@ -147,5 +150,11 @@
         height: 40px;
         border-radius: 50%;
     }
+    .menuIcon {
+        display: block;
+        margin: 2% 0% 0%;
+        font-size: 2rem;
+        color: white;
+      }
    
 }

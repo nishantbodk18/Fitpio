@@ -7,9 +7,9 @@ import { AiFillCalendar } from "react-icons/ai";
 import { BsCartCheckFill } from "react-icons/bs";
 import { FaBasketball } from "react-icons/fa6";
 
-const Sidebar = () => {
+const Sidebar = ({showSidebar}) => {
   return (
-    <div className="sidebar">
+    <div className={showSidebar?"mobileSidebar":"sidebar"}>
       <div className="logo">
       <FaBasketball />
       </div>
